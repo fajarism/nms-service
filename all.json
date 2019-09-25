@@ -1,0 +1,25 @@
+[
+  {
+    // NMS-Service
+    "uid": "nms-service",
+    "watch" : false,
+    "append" : true,
+    "script": "index.js",
+    "sourceDir": "/home/b201/nms/nms-service"
+  },
+//  {
+    // Status Checker
+  //  "uid": "status-checker",
+    //"append" : true,
+   // "script": "status-checker.js",
+   // "sourceDir": "/home/b201/nms/nms-service"
+ // },
+  {
+    // NMS-Service
+    "uid": "image-uploader",
+    "watch" : false,
+    "append" : true,
+    "script": "fileUploader.js",
+    "sourceDir": "/home/b201/nms/nms-service"
+  }
+]
